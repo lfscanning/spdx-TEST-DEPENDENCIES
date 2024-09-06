@@ -1,0 +1,33 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2024-09-06T23:29:21Z",
+        "creators": [
+            "Organization: aquasecurity",
+            "Tool: trivy-dev"
+        ]
+    },
+    "dataLicense": "CC0-1.0",
+    "name": "C:/Users/gary/AppData/Local/Temp/tmpij720xuy/code",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/C:/Users/gary/AppData/Local/Temp/tmpij720xuy/code-1fb9483a-25c8-44ef-b301-c93a79a5cc20",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Filesystem-1704cc02136c3b20",
+            "attributionTexts": [
+                "SchemaVersion: 2"
+            ],
+            "downloadLocation": "NONE",
+            "filesAnalyzed": false,
+            "name": "C:/Users/gary/AppData/Local/Temp/tmpij720xuy/code",
+            "primaryPackagePurpose": "SOURCE"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Filesystem-1704cc02136c3b20",
+            "relationshipType": "DESCRIBES"
+        }
+    ]
+}
