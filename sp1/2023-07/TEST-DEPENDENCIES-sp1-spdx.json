@@ -1,0 +1,71 @@
+{
+    "SPDXID": "SPDXRef-DOCUMENT",
+    "creationInfo": {
+        "created": "2025-07-10T17:39:39Z",
+        "creators": [
+            "Tool: protobom-devel",
+            "Tool: trivy-dev",
+            "Organization: aquasecurity",
+            "Organization: Linux Foundation",
+            "Tool: Scaffold",
+            "Tool: Parlay"
+        ],
+        "licenseListVersion": "3.20"
+    },
+    "dataLicense": "CC0-1.0",
+    "hasExtractedLicensingInfos": [
+        {
+            "comment": "This license text represents a NOASSERTION on a license component found within the scope of this license expression.",
+            "extractedText": "This component contains no assertion license",
+            "licenseId": "LicenseRef-NOASSERTION"
+        }
+    ],
+    "name": "C:/Users/garys/AppData/Local/Temp/tmpfe0gzto0/code",
+    "spdxVersion": "SPDX-2.3",
+    "documentNamespace": "http://aquasecurity.github.io/trivy/filesystem/C:/Users/garys/AppData/Local/Temp/tmpfe0gzto0/code-b03e3504-377a-4b62-8b4a-b91188d35c77",
+    "packages": [
+        {
+            "SPDXID": "SPDXRef-Filesystem-d711286be0675af0",
+            "downloadLocation": "NOASSERTION",
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "TEST-DEPENDENCIES.sp1",
+            "primaryPackagePurpose": "SOURCE",
+            "supplier": "Organization: Linux Foundation Project TEST-DEPENDENCIES",
+            "versionInfo": "2023-07"
+        },
+        {
+            "SPDXID": "SPDXRef-TEST-DEPENDENCIES-sp1-spdx-TEST-DEPENDENCIES",
+            "comment": "This package was added to the Trivy analysis for the spdx-TEST-DEPENDENCIES by the Scaffold tool SBOM augmentation",
+            "downloadLocation": "https://github.com/lfscanning/spdx-TEST-DEPENDENCIES/archive/153a803c46181319fd782ef8426ff58a2e885d82.zip",
+            "externalRefs": [
+                {
+                    "referenceCategory": "PACKAGE_MANAGER",
+                    "referenceLocator": "pkg:github/lfscanning/spdx-TEST-DEPENDENCIES@153a803c46181319fd782ef8426ff58a2e885d82",
+                    "referenceType": "purl"
+                }
+            ],
+            "filesAnalyzed": false,
+            "licenseConcluded": "Apache-2.0",
+            "licenseDeclared": "Apache-2.0",
+            "name": "spdx-TEST-DEPENDENCIES",
+            "primaryPackagePurpose": "SOURCE",
+            "sourceInfo": "The source this package was part of the LF Scanning configuration for the project TEST-DEPENDENCIES",
+            "supplier": "Organization: Linux Foundation Project TEST-DEPENDENCIES",
+            "versionInfo": "153a803c46181319fd782ef8426ff58a2e885d82"
+        }
+    ],
+    "relationships": [
+        {
+            "spdxElementId": "SPDXRef-DOCUMENT",
+            "relatedSpdxElement": "SPDXRef-Filesystem-d711286be0675af0",
+            "relationshipType": "DESCRIBES"
+        },
+        {
+            "spdxElementId": "SPDXRef-Filesystem-d711286be0675af0",
+            "relatedSpdxElement": "SPDXRef-TEST-DEPENDENCIES-sp1-spdx-TEST-DEPENDENCIES",
+            "relationshipType": "CONTAINS"
+        }
+    ]
+}
